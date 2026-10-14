@@ -2,7 +2,7 @@
 layout: archive
 title: "Talks and presentations"
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
 {% if site.talkmap_link == true %}
@@ -14,3 +14,7 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+{% assign talk_count = site.talks | size %}
+{% if talk_count == 0 %}
+<p>Project talks, conference presentations and seminars will be listed here as details become available.</p>
+{% endif %}
