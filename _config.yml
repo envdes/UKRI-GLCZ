@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-GB"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Global-scale modelling of urban climate projection and adaptation based on local climate zones"
+title                    : "Urban Climate and Local Climate Zones Research Team"
 title_separator          : "-"
-name                     : &name "Global-scale modelling of urban climate projection and adaptation based on local climate zones"
+name                     : &name "Urban Climate and Local Climate Zones Research Team"
 description              : &description "Research on global urban climate modelling, local climate zones and climate adaptation."
 url                      : https://envdes.github.io # The base hostname & protocol for your site
 baseurl                  : "/UKRI-GLCZ" # The subpath for this project site
